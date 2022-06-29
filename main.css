@@ -7,8 +7,10 @@ body {
     align-items: center;
 
 
+
 }
 .container {
+    margin-right: 150px;
  display:grid;
  width: 90%;
  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
@@ -21,38 +23,43 @@ body {
     border: 2px solid black;
     position: relative;
     background-color: teal;
+    left: 80px;
  }
 
- #box1 {
+ #Chicken {
    
 width: 100px;
-    border: 2px solid white;
+    border: 2px solid black;
     background-color: antiquewhite;
     margin: 0%;
-    float: right;
+    margin-bottom: 45px;
+    position: relative;
+    left: 455px;
  }
 
- #box2 {
+ #Beef {
    width: 100px;
-        border: 2px solid white;
+        border: 2px solid black;
         background-color: rgba(69, 197, 55, 0.66);
         margin: 0%;
-        float: right;
+        margin-bottom: 45px;
+        position: relative;
+        left: 455px;
+
      }
     
-     #box3 {
+     #Fish {
    width: 100px;
-            border: 2px solid white;
+            border: 2px solid black;
             background-color: rgb(182, 117, 171);
             margin: 0%;
-            float: right;
-            
+            margin-bottom: 45px;
+            position: relative;
+            left: 455px;    
          }
         
         h1 {
-            position: relative;
-            left: 900px;
-            bottom: 150px;;
+            position: absolute;
+            left: 850px;
+            bottom: 650px;
         }
-
-        
